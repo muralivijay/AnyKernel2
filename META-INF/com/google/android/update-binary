@@ -62,13 +62,11 @@ fi;
 bb=/tmp/anykernel/tools/busybox;
 chmod 755 $bb;
 $bb chmod -R 755 /tmp/anykernel/tools /tmp/anykernel/bin;
-
-ui_print " ____    ___   ____  __   __ ";
-ui_print "|  _ \  / _ \ / ___| \ \ / / ";
-ui_print "| |_) || | | |\___ \  \ V /  ";
-ui_print "|  _ < | |_| | ___) |  | |   ";
-ui_print "|_| \_\ \___/ |____/   |_|   ";
-ui_Print "_____________________________";
+ui_print "                                     ";
+ui_print "         █▀▀█ █▀▀█ █░░ █▀▀ █░█       ";
+ui_print "         █▄▄▀ █░░█ █░░ █▀▀ ▄▀▄       ";
+ui_print "         ▀░▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀ ▀░▀       ";
+ui_print "                                     ";
 ui_print "$(file_getprop /tmp/anykernel/anykernel.sh kernel.string)";
 if [ -f /tmp/anykernel/version ]; then
   ui_print " ";

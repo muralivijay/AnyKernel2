@@ -2,7 +2,7 @@
 CURRENT_DATE=$(date +'%Y%m%d')
 LOUP_VERSION=$1
 ANDROID_VERSION=$2
-FILE_NAME="Rosy-caf.Kernel-v${LOUP_VERSION}-${ANDROID_VERSION}-${CURRENT_DATE}.zip"
+FILE_NAME="rolex-caf.Kernel-v${LOUP_VERSION}-${ANDROID_VERSION}-${CURRENT_DATE}.zip"
 
 # Delete old stuff.
 #rm ~/CAF/AnyKernel2/*.zip
