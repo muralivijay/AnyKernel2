@@ -21,7 +21,7 @@ sed -i -e "s/ANDROID_VERSION/$ANDROID_VERSION/g" ~/AnyKernel2/anykernel.sh
 
 # Zip it!.
 pushd ~/AnyKernel2
-zip -r9 ${FILE_NAME} * -x build.sh README.md anykernel-template.sh
+zip -r9 ${FILE_NAME} * -x build.sh README.md anykernel-template.sh cleanup.sh
 popd
 
 # Print final result in color!
