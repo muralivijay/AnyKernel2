@@ -62,11 +62,25 @@ fi;
 bb=/tmp/anykernel/tools/busybox;
 chmod 755 $bb;
 $bb chmod -R 755 /tmp/anykernel/tools /tmp/anykernel/bin;
-ui_print "                                     ";
-ui_print "         █▀▀█ █▀▀█ █░░ █▀▀ █░█       ";
-ui_print "         █▄▄▀ █░░█ █░░ █▀▀ ▄▀▄       ";
-ui_print "         ▀░▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀ ▀░▀       ";
-ui_print "                                     ";
+ui_print "                                                                                                    " ;
+ui_print "                                                                                                    " ;
+ui_print " $$$$$$$$\ $$$$$$$$\  $$$$$$\  $$\      $$\       $$\       $$$$$$\  $$$$$$\  $$\   $$\  $$$$$$\    " ;
+ui_print " \__$$  __|$$  _____|$$  __$$\ $$$\    $$$ |      $$ |      \_$$  _|$$  __$$\ $$$\  $$ |$$  __$$\   " ;
+ui_print "    $$ |   $$ |      $$ /  $$ |$$$$\  $$$$ |      $$ |        $$ |  $$ /  $$ |$$$$\ $$ |$$ /  \__|  " ;
+ui_print "    $$ |   $$$$$\    $$$$$$$$ |$$\$$\$$ $$ |      $$ |        $$ |  $$ |  $$ |$$ $$\$$ |\$$$$$$\    " ;
+ui_print "    $$ |   $$  __|   $$  __$$ |$$ \$$$  $$ |      $$ |        $$ |  $$ |  $$ |$$ \$$$$ | \____$$\   " ;
+ui_print "    $$ |   $$ |      $$ |  $$ |$$ |\$  /$$ |      $$ |        $$ |  $$ |  $$ |$$ |\$$$ |$$\   $$ |  " ;
+ui_print "    $$ |   $$$$$$$$\ $$ |  $$ |$$ | \_/ $$ |      $$$$$$$$\ $$$$$$\  $$$$$$  |$$ | \$$ |\$$$$$$  |  " ;
+ui_print "    \__|   \________|\__|  \__|\__|     \__|      \________|\______| \______/ \__|  \__| \______/   " :
+ui_print "                                                                                                    " ;
+ui_print "                                                                                                    " ;
+ui_print "                                                                                                    " ;
+ui_print "     Hi potato user Welcome             ";
+ui_print "                                        ";
+ui_print "     Teamlions Extended(BETA)           ";
+ui_print "                                        ";
+ui_print "     Giving Lion power                  ";
+ui_print "                                        ";
 ui_print "$(file_getprop /tmp/anykernel/anykernel.sh kernel.string)";
 if [ -f /tmp/anykernel/version ]; then
   ui_print " ";
@@ -167,6 +181,12 @@ test "$savedpre" && export LD_PRELOAD="$savedpre";
 
 unmount_all;
 
-ui_print " ";
-ui_print " ";
-ui_print "Done!";
+ui_print "                                           ";
+ui_print "    Done!                                  ";
+ui_print "                                           ";
+ui_print "    Enjoy Our Lions power                  ";
+ui_print "                                           ";
+ui_print " Give Feedback @muralidharan9845 telegram  ";
+ui_print "                                           ";
+ui_print " Thanks for installing                     ";
+ui_print "                                           ";

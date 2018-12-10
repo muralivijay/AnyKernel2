@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() {
-kernel.string=Kernel by muralivijay @ github    vKERNEL_VERSION-ANDROID_VERSION
+kernel.string=Kernel by muralivijay@github    vKERNEL_VERSION-ANDROID_VERSION
 do.devicecheck=1
 do.modules=1
 do.cleanup=1
