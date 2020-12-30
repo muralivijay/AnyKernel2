@@ -9,7 +9,7 @@ do.devicecheck=1
 do.modules=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=rolex
+device.name1=A2010-a
 device.name2=
 device.name3=
 device.name4=
@@ -17,7 +17,7 @@ device.name5=
 } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
+block=/dev/block/platform/mtk-msdc.0/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
