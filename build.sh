@@ -11,7 +11,7 @@ FILE_NAME="Lenovo_A2010_Kernel_v${LOUP_VERSION}_${ANDROID_VERSION}_${CURRENT_DAT
 #fi
 
 # Start building anykernel zip.
-cp ./arch/arm/boot/Image.gz-dtb ~/AnyKernel2_a2010/zImage
+cp ./arch/arm/boot/zImage-dtb ~/AnyKernel2_a2010/zImage
 #find . -type f -name "wlan.ko" -exec cp -fv {} ~/CAF/AnyKernel2/modules/system/lib/modules/. \;
 
 # Update kernel version
